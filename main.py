@@ -11,5 +11,5 @@ combined = lower + upper + num
 
 for i in range(amount_of_codes):
   temp = random.sample(combined,length)
-  password = "".join(temp)
-  print(password)
+  code = "".join(temp)
+  print(code)
